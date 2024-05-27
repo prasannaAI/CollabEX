@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-semibold
+}
+
+.half-circle {
+  clip-path: ellipse(75% 100% at 55% 100%);
+}
+
+.reverse-half-circle {
+  clip-path: ellipse(75% 100% at 55% 0%);
+}
